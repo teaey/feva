@@ -9,7 +9,7 @@ import java.util.concurrent.locks.LockSupport;
  * @date 2014-05-23
  * @since 1.0.0.0
  */
-public class ElapseCounterTest extends TestCase {
+public class ElapseTest extends TestCase {
     public void test(){
         System.out.println("1 millis");
         park(1);
@@ -22,8 +22,8 @@ public class ElapseCounterTest extends TestCase {
     }
 
     void park(int mills){
-        ElapseCounter.p();
+        Elapse.p();
         LockSupport.parkNanos(mills * 1000000);
-        System.out.println(ElapseCounter.q());
+        System.out.println(Elapse.q());
     }
 }

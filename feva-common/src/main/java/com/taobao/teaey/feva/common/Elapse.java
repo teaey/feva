@@ -5,9 +5,9 @@ package com.taobao.teaey.feva.common;
  * @date 2014-05-23
  * @since 1.0.0.0
  */
-public class ElapseCounter {
+public class Elapse {
     static final class LocalCache {
-        long data;
+        long start;
     }
 
     private static final ThreadLocal<LocalCache> timestamp = new ThreadLocal<LocalCache>() {
@@ -24,18 +24,18 @@ public class ElapseCounter {
     };
 
     public static final void p() {
-        timestamp.get().data = System.currentTimeMillis();
+        timestamp.get().start = System.currentTimeMillis();
     }
 
     public static final long q() {
-        return System.currentTimeMillis() - timestamp.get().data;
+        return System.currentTimeMillis() - timestamp.get().start;
     }
 
     public static final void pn() {
-        timestamp.get().data = System.nanoTime();
+        timestamp.get().start = System.nanoTime();
     }
 
     public static final long qn() {
-        return System.nanoTime() - timestampNanos.get().data;
+        return System.nanoTime() - timestampNanos.get().start;
     }
 }

@@ -7,13 +7,13 @@ package com.taobao.teaey.feva.common;
  */
 public class Interval {
     public static final long interval(Runnable r, int round){
-        ElapseCounter.p();
+        Elapse.p();
         Repeat.repeat(r, round);
-        return ElapseCounter.q();
+        return Elapse.q();
     }
     public static final long intervalNanos(Runnable r, int round){
-        ElapseCounter.pn();
+        Elapse.pn();
         Repeat.repeat(r, round);
-        return ElapseCounter.qn();
+        return Elapse.qn();
     }
 }

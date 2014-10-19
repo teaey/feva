@@ -6,7 +6,7 @@ package com.taobao.teaey.feva.common;
  * @since 1.0.0.0
  */
 public class Repeat {
-    public static final void repeat(Runnable r, int round) {
+    public static final void repeat(final Runnable r, final int round) {
         if (round < 1) {
             throw new IllegalArgumentException("round must > 0");
         }
