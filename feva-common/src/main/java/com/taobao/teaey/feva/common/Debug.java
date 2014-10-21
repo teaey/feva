@@ -13,13 +13,7 @@ import java.io.InputStreamReader;
 public class Debug {
     public static final String readLine(InputStream in) throws IOException {
         BufferedReader r = new BufferedReader(new InputStreamReader(in));
-        String ret = null;
-        try {
-            ret = r.readLine();
-        } finally {
-            r.close();
-        }
-        return ret;
+        return r.readLine();
     }
 
     public static final Integer readLineForInteger(InputStream in) throws IOException {
