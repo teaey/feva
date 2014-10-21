@@ -9,7 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>feva-common</artifactId>
+    <artifactId>feva-all</artifactId>
 
-    <name>Feva-Common</name>
+    <name>Feva-All</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>cn.teaey.feva</groupId>
+            <artifactId>feva-common</artifactId>
+            <version>1.0.0.0</version>
+        </dependency>
+    </dependencies>
 </project>
