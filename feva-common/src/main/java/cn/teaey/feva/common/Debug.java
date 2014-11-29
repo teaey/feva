@@ -1,4 +1,4 @@
-package com.taobao.teaey.feva.common;
+package cn.teaey.feva.common;
 
 import java.io.BufferedReader;
 import java.io.IOException;

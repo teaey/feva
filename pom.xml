@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>cn.teaey.feva</groupId>
-    <artifactId>feva-parrent</artifactId>
+    <artifactId>feva-parent</artifactId>
     <version>1.0.0.0</version>
     <modules>
         <module>feva-common</module>
@@ -11,7 +11,7 @@
     </modules>
     <packaging>pom</packaging>
 
-    <name>Feva-Parrent</name>
+    <name>Feva-Parent</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
