@@ -11,8 +11,6 @@
 
     <artifactId>feva-all</artifactId>
 
-    <name>Feva-All</name>
-
     <dependencies>
         <dependency>
             <groupId>cn.teaey.feva</groupId>
