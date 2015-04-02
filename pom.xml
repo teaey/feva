@@ -10,7 +10,12 @@
 
     <groupId>com.github.teaey</groupId>
     <artifactId>feva-parent</artifactId>
-    <version>1.0.0</version>
+
+    <properties>
+        <major.version>1.0.0</major.version>
+    </properties>
+
+    <version>${major.version}</version>
     <modules>
         <module>feva-common</module>
         <module>feva-all</module>
