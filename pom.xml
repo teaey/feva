@@ -12,10 +12,11 @@
     <artifactId>feva-parent</artifactId>
 
     <properties>
-        <major.version>1.0.0</major.version>
+        <major.version>1.0</major.version>
+        <minor.version>1</minor.version>
     </properties>
 
-    <version>${major.version}</version>
+    <version>${major.version}.${minor.version}</version>
     <modules>
         <module>feva-common</module>
         <module>feva-all</module>
@@ -29,11 +30,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>jline</groupId>
-                <artifactId>jline</artifactId>
-                <version>2.11</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
     <dependencies>

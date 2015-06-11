@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 /**
  * @author teaey masfay@163.com
  * @date 2014-10-19
- * @since 1.0.0.0
+ * @since 1.0.0
  */
 public class Debug {
     public static final String readLine(InputStream in) throws IOException {

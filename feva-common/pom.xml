@@ -5,7 +5,7 @@
     <parent>
         <artifactId>feva-parent</artifactId>
         <groupId>com.github.teaey</groupId>
-        <version>${major.version}</version>
+        <version>${major.version}.${minor.version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 

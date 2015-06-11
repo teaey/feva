@@ -3,7 +3,7 @@ package cn.teaey.feva.common;
 /**
  * @author teaey masfay@163.com
  * @date 2014-05-23
- * @since 1.0.0.0
+ * @since 1.0.0
  */
 public class Repeat {
     public static final void repeat(final Runnable r, final int round) {
